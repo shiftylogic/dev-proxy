@@ -17,7 +17,7 @@ openssl req \
 openssl genrsa -out server.key 4096
 openssl req \
     -new \
-    -subj "/C=US/ST=WA/L=Seattle/O=Root/CN=server.shiftylogic.com" \
+    -subj "/C=US/ST=WA/L=Seattle/O=Root/CN=staging.shiftylogic.com" \
     -key server.key \
     -out server.csr \
 # And sign the server cert with the root CA key
