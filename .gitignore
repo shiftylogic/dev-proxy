@@ -26,3 +26,27 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehtumbs.db
+Thumbs.db
+
+# IDE files
+nbproject
+.~lock.*
+.buildpath
+.idea
+.project
+.settings
+composer.lock
+.tmp
+xcuserdata
+*.xcworkspace
+
+# Generated public / private security keys
+keys
